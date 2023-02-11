@@ -1,0 +1,137 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+ul {
+  list-style-type: none;
+}
+
+:root {
+  --color-blue: #2196f3;
+  --black-color: #212121;
+  --white-color: #ffffff;
+  --grey-color: #757575;
+  --color-h1: #2f303a;
+  --color-textare1: #00000033;
+  --contact-init: #ffffff99;
+  --tex-pie: #ffffff;
+  --marco-pie: #2f303a;
+}
+
+/*header*/
+.logo {
+  font-family: "Raleway";
+  text-decoration: none;
+  color: var(--color-blue);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+}
+.header-item {
+  text-decoration: none;
+  color: var(--black-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+}
+.header-item:hover {
+  color: var(--color-blue);
+}
+/*contacts*/
+
+.contacts {
+  text-decoration: none;
+  color: var(--grey-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+}
+.contacts:hover {
+  color: var(--color-blue);
+}
+
+.buton {
+  font-family: "reboto";
+  text-decoration: none;
+  color: var(--black-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+}
+/*tarea 1*/
+.texto1 {
+  color: var(--tex-pie);
+  width: 696px;
+  height: 120px;
+  left: 448px;
+  top: 280px;
+  font-family: "Roboto";
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.pointer {
+  color: var(--white-color);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  background-color: var(--color-blue);
+  cursor: pointer;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.tittle {
+  color: var(--black-color);
+}
+
+.parrafo {
+  color: var(--grey-color);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.buton-items {
+  color: var(--black-color);
+}
+.buton-items:hover {
+  color: var(--white-color);
+  background-color: var(--color-blue);
+  cursor: pointer;
+}
+
+.paragraph {
+  color: var(--grey-color);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+}
+.pie-pages {
+  color: var(--tex-pie);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+}
+.pie-pages:hover {
+  color: var(--color-blue);
+}
+
+.marco-pie {
+  color: var(--marco-pie);
+  background-color: var(--marco-pie);
+  width: 1600px;
+  height: 252px;
+  left: 0px;
+  top: 1628px;
+  cursor: pointer;
+}
