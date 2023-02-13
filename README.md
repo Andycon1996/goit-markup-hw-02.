@@ -1,3 +1,3 @@
 ### enlace a la tarea 2
 
-http://127.0.0.1:5500/index.html
+ https://andycon1996.github.io/goit-markup-hw-02./
