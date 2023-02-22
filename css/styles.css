@@ -18,7 +18,9 @@ body {
   --p: rgba(0, 0, 0, 0.2);
 }
 
+
 /*header*/
+
 .logo {
   font-family: "Raleway";
   text-decoration: none;
@@ -27,6 +29,7 @@ body {
   font-size: 26px;
   line-height: 1.5;
 }
+
 .list {
   list-style-type: none;
   text-decoration: none;
@@ -37,11 +40,17 @@ body {
   color: var(--black-color);
   font-weight: 500;
   font-size: 16px;
-  line-height: 26px;
+  line-height: 1.5;
 }
-.header-item:hover {
+
+.header-item:hover, .header-item:focus {
   color: var(--color-blue);
 }
+
+.current {
+  color: var(--color-blue);
+}
+
 
 /*contacts*/
 
@@ -52,9 +61,11 @@ body {
   line-height: 16px;
   letter-spacing: 0.02em;
 }
-.contacts:hover {
+
+.contacts:hover, .contacts:focus {
   color: var(--color-blue);
 }
+
 .contacts-pie {
   text-decoration: none;
   color: var(--contact-init);
@@ -62,7 +73,8 @@ body {
   line-height: 16px;
   letter-spacing: 0.02em;
 }
-.contacts-pie:hover {
+
+.contacts-pie:hover,.contacts-pie:focus {
   color: var(--color-blue);
 }
 
@@ -71,14 +83,17 @@ body {
   color: var(--black-color);
   font-weight: 500;
   font-size: 16px;
-  line-height: 26px;
+  line-height: 1, 5;
 }
+
+
 /*tarea 1*/
 
 .fondo-h1 {
   color: var(--color-h1);
   background-color: var(--black-color);
 }
+
 .texto1 {
   color: var(--white-color);
   width: 696px;
@@ -112,31 +127,27 @@ body {
 .tittle {
   color: var(--black-color);
   font-weight: 700;
-font-size: 36px;
-line-height: 42px;
-text-align: center;
-  
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
 }
-.tittle-p {
-  color: var(--grey-color);
-  font-weight: 700;
-  line-height: 16px;
-  text-transform: uppercase;
-}
-.name{
+
+.name {
   color: var(--black-color);
   font-weight: 500;
   font-size: 16px;
-  line-height: 19px;}
+  line-height: 1,5;
+}
 
 .parrafo {
   color: var(--grey-color);
-  font-weight: 400;
-  line-height: 24px;
+  font-size: 14px;
+  line-height: 1, 5;
 }
 
 .buton-items {
   color: var(--black-color);
+  font-family: "roboto";
   font-weight: 500;
   font-style: normal;
   font-weight: 500;
@@ -147,12 +158,8 @@ text-align: center;
   border-radius: 5px;
   cursor: pointer;
 }
-.buton-items:focus {
-  color: var(--white-color);
-  background-color: var(--color-blue);
-}
 
-.buton-items:hover {
+.buton-items:hover, .buton-items:focus {
   color: var(--white-color);
   background-color: var(--color-blue);
   background: #2196f3;
@@ -164,12 +171,14 @@ text-align: center;
   font-size: 16px;
   line-height: 30px;
 }
+
 .pie-pages {
   text-decoration: none;
   color: var(--white-color);
   font-weight: 400;
   line-height: 24px;
 }
+
 .pie-pages:hover {
   color: var(--color-blue);
 }
@@ -183,9 +192,15 @@ text-align: center;
   top: 1628px;
   cursor: pointer;
 }
+
 .subtittle {
   color: var(--black-color);
   font-weight: 700;
   font-size: 18px;
   line-height: 36px;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
 }
